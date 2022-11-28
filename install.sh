@@ -69,6 +69,15 @@ case "$mirror" in
 	AzureChinaCloud)
 		DOWNLOAD_URL="https://mirror.azure.cn/docker-ce"
 		;;
+	TencentPublic)
+		DOWNLOAD_URL="https://mirrors.tencent.com/docker-ce"
+		;;
+	TencentinCloud)
+		DOWNLOAD_URL="https://mirrors.tencentyun.com/docker-ce"
+		;;
+	BaiduinCloud)
+		DOWNLOAD_URL="http://mirrors.baidubce.com/docker-ce"
+		;;
 esac
 
 command_exists() {
